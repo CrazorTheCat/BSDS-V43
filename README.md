@@ -4,7 +4,7 @@ ANDROID 1 (MEDIAFIRE): https://www.mediafire.com/file/jhxrmzq24ofuooe/com.projec
 
 ANDROID 2 (GOOGLE DRIVE) : https://drive.google.com/file/d/1KucfYXQm71ai4sdJCuT5ZZC9t_ugav1u/view?usp=sharing
 
-Server ZIP: https://github.com/CrazorTheCat/BSDS-V42/archive/refs/heads/master.zip
+Server ZIP: https://github.com/CrazorTheCat/BSDS-V43/archive/refs/heads/master.zip
 
 ## Requirements: ##
 1. a brain...
@@ -19,4 +19,4 @@ Server ZIP: https://github.com/CrazorTheCat/BSDS-V42/archive/refs/heads/master.z
 
 ## Change the ip address and port (if needed) in libprojectbsds.config.so located in the lib folder of the apk ##
 
-![Screenshot_20220302-180739_BSDS_V42](https://user-images.githubusercontent.com/52799759/156474426-399ea814-9727-4a49-a1f8-2f95e027309c.png)
+![Screenshot_20220430-195745](https://user-images.githubusercontent.com/52799759/166126704-d3733802-daf2-4594-9070-24ed776b6f1c.png)
