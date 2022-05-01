@@ -34,7 +34,6 @@
     <Compile Include="Classes\Connection.py" />
     <Compile Include="Classes\CPPDefs.py" />
     <Compile Include="Classes\Debugger.py" />
-    <Compile Include="Classes\DiscordCore.py" />
     <Compile Include="Classes\Files\Classes\Cards.py" />
     <Compile Include="Classes\Files\Classes\Characters.py" />
     <Compile Include="Classes\Files\Classes\Locations.py" />
