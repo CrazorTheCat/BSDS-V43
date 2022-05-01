@@ -52,7 +52,10 @@ class BattleEndMessage(PiranhaMessage):
                 self.writeDataReference(heroEntry["Brawler"]["ID"][0], heroEntry["Brawler"]["ID"][1])
             self.writeVInt(1)
             for i in range(1):
-                self.writeDataReference(heroEntry["Brawler"]["SkinID"][0], heroEntry["Brawler"]["SkinID"][1])
+                if heroEntry["Brawler"]["SkinID"] != None:
+                    self.writeDataReference(heroEntry["Brawler"]["SkinID"][0], heroEntry["Brawler"]["SkinID"][1])
+                else:
+                    self.writeDataReference(0)
             self.writeVInt(1)
             for i in range(1):
                 self.writeVInt(1250)
