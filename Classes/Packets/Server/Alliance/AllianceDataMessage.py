@@ -11,7 +11,7 @@ class AllianceDataMessage(PiranhaMessage):
     def encode(self, fields, player):
         clubdb_instance = ClubDatabaseHandler()
         db_instance = DatabaseHandler()
-        clubData = json.loads(clubdb_instance.getClubWithLowID(player.AllianceID[1])[0][1])
+        clubData = json.loads(clubdb_instance.getClubWithLowID(fields["AllianceID"][1])[0][1])
         db_instance.loadAccount(player, player.ID)
 
         self.writeBoolean(False)

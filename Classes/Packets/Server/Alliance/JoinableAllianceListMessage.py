@@ -11,14 +11,19 @@ class JoinableAllianceListMessage(PiranhaMessage):
     def encode(self, fields, player):
         clubdb_instance = ClubDatabaseHandler()
         allClubs = clubdb_instance.getAllClubByRegion(player.Region)
+
         if len(allClubs) >= 50:
             maxClub = 50
             self.writeVInt(50)
+        elif len(allClubs) == 0:
+            maxClub = -1
+            self.writeVInt(0)
         else:
             maxClub = len(allClubs)
             self.writeVInt(len(allClubs))
 
-        if maxClub != 1:
+
+        if maxClub > 1:
             found = 0
             randomClubList = []
             while found != maxClub:
