@@ -1,4 +1,4 @@
-Discord link : https://discord.gg/mt4dUxXryh
+
 
 ANDROID 1 (MEDIAFIRE) (UPDATED!) : https://www.mediafire.com/file/njptm3nhto0xm19/com.projectsbsds.v43229-rev1.apk/file
 
@@ -7,7 +7,7 @@ ANDROID 2 (GOOGLE DRIVE) (UPDATED!) : https://drive.google.com/file/d/1BKjqkRdPO
 Server ZIP: https://github.com/CrazorTheCat/BSDS-V43/archive/refs/heads/master.zip
 
 ## Requirements: ##
-1. a brain...
+1. a client...
 
 ## How to play BSDS: ##
 1. download server and apk
